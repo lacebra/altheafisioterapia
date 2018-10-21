@@ -1,0 +1,227 @@
+# Site settings
+baseURL = "https://altheafisioterapia.com/"
+languageCode = "es-es"
+title = "Althea Fisioterapia"
+theme = "forty"
+copyright= "ALTHEA FISIOTERAPIA® todos los derechos reservados"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+# Enter your disqus shortname to enable comments
+disqusShortname = ""
+[author]
+  name="Althea Fisioterapia Madrid" 
+
+[params]
+  # You can use Markdown syntax for urls [text](//url.to/source)
+  # To create multi-line text in strings use the """example Text""" format
+  #
+  # All icons using Fontawesome's icon font. Look at fontawesome.io/icons
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # Provide your metadata here.
+  name = "Althea Fisioterapia Madrid"
+  description = "ALTHEA FISIOTERAPIA® es una clínica de fisioterapia en Madrid. Contamos con grandes profesionales que te ayudarán de la forma más eficaz ✅. ¿Quieres cita? 📞: 914 39 72 05. L. a V. de 8:00 a 21:00."
+  favicon = "/favicon.ico"
+  
+  [params.publisher]
+    name = "ALTHEA FISIOTERAPIA"
+
+    [params.publisher.logo]
+      url = "/img/logo-althea-fisioterapia.jpg"
+      width = 127
+      height = 72
+
+  [params.logo]
+    url = "/img/logo-althea-fisioterapia.jpg"
+    width = 127
+    height = 72       
+  
+  # Link custom assets relative to /static
+  custom_css = []
+  custom_js  = []
+  
+
+  # Just a custom image variable, please define it in .md files for content.
+  image = ""
+
+  # 404 error customization
+  [params.error404]
+    heading = "Ups, parece que ha habido un error"
+    text = "Por favor, visita [esta página](/)"
+
+  # Navigation Section
+  [params.navigation]
+    title = "ALTHEA FISIOTERAPIA"
+    subtitle = "20 AÑOS DE EXPERIENCIA PROFESIONAL"
+    menu = "Menú"
+    # Optional logo as brand stored in img/
+    # logo = "logo.png"
+
+    [[params.navigation.links]]
+      name = "Nuestras instalaciones"
+      url = "/nuestras-instalaciones/"
+
+    [[params.navigation.links]]
+      name = "Terapias"
+      url = "/terapias/"
+
+    [[params.navigation.links]]
+      name = "Tarifas"
+      url = "/tarifas/"
+
+    [[params.navigation.links]]
+      name = "¿Quiénes somos?"
+      url = "/quienes-somos/"
+
+    # Add custom links here by uncommenting code below. To remove links just delete
+    # the [[params.navigation.links]] map associated with that link. Copy and paste
+    # code below if you need more links. Buttons work in the same way.
+    # [[params.navigation.links]]
+    #    name = "NameOfLink"
+    #    url = "UrlOfLink"
+
+    # Button Style 1
+    [[params.navigation.button1]]
+      name = "¿Dónde estamos?"
+      url = "/donde-estamos/"
+
+
+  # Banner section
+  [params.banner]
+    # To change the background image on the homepage banner, replace 'banner.jpg' in
+    # the 'static/img' folder.
+    title = "Bienvenido a ALTHEA FISIOTERAPIA"
+    contact = "TFL. 914 39 72 05 / AV. DEL DR. GARCÍA TAPIA, 62, 28030 MADRID"
+    subtitle = "Cambia tu actitud ante el dolor. Nuestros fisioterapeutas te ayudarán."
+    buttonText = "Qué es lo que necesitas"
+
+
+  # Tiles Section
+  [params.tiles]
+    enable = true
+    # Display your showcases here.
+    
+    [[params.tiles.showcase]]
+      title = "¿Dónde estamos?"
+      subtitle = "Pincha aquí para encontrarnos"
+      image = "pic12.jpg"
+      url = "/donde-estamos/"
+
+    [[params.tiles.showcase]]
+      title = "¿Quiénes somos?"
+      subtitle = "Juan Vicente Vigara ~ Mario Sánchez ~ Álvaro Gómez"
+      image = "pic11.jpg"
+      url = "/quienes-somos/"
+
+    [[params.tiles.showcase]]
+      title = "Terapias"
+      subtitle = "Te explicamos en qué consiste cada técnica"
+      image = "pic08.jpg"
+      url = "/terapias/"
+
+    [[params.tiles.showcase]]
+      title = "Tarifas"
+      subtitle = "Precios de sesiones y bonos"
+      image = "pic07.jpg"
+      url = "/tarifas/"
+
+    [[params.tiles.showcase]]
+      title = "Nuestras instalaciones"
+      subtitle = "Te enseñamos dónde y con qué te trataremos"
+      image = "pic10.jpg"
+      url = "/nuestras-instalaciones/"
+
+    [[params.tiles.showcase]]
+      title = "Lo que nos hace felices"
+      subtitle = "Pacientes que se acuerdan de nosotros allá por donde van"
+      image = "pic13.jpg"
+      url = "/lo-que-nos-hace-felices/"
+    # You can make more showcases by copy and pasting the code above
+
+  [params.blog]
+    # All blogs defined in their own files. You can find example blogs
+    # at 'exampleSite/content/blogs'. Copy the 'blogs' folder into the 'content' directory
+    # at the root of this Hugo site.
+    # For more information take a look at the README.
+    # To add more blogs just copy and paste the code.
+
+  # Section Type Two
+  [params.two]
+    enable = true
+    title = "Contacto"
+    subtitle = """También puedes contactar con nosotros a través del correo."""
+    buttonText = "Déjanos tu mensaje"
+    url = "http://www.google.es"
+
+  # Contact section
+  [params.contact]
+    enable = true
+    buttonSend = "Enviar mensaje"
+    buttonClear = "Borrar"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below and uncomment
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    # formEmail = "example@domain.com"
+
+    # Contact Section
+    # You can add multiple emails, phone numbers, or addresses
+    # by copying the corresponding map with frontmatter code.
+    [[params.contact.email]]
+    title = "Email"
+    email = "altheafisioterapia@gmail.com"
+
+    [[params.contact.phone]]
+    title = "Teléfono"
+    phone = "914 39 72 05"
+
+    [[params.contact.address]]
+    title = "Dirección"
+    street = "Av. del Dr. García Tapia, 62, 28030 Madrid"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = "ALTHEA FISIOTERAPIA"
+
+    # Uses font awesome icons
+    [[params.footer.social]]
+      icon = ""
+      url= "https://www.twitter.com"
+      label = "Twitter"
+
+    [[params.footer.social]]
+      icon = ""
+      url= "https://www.facebook.com"
+      label = "Facebook"
+
+    [[params.footer.social]]
+      icon = ""
+      url= "https://www.instagram.com"
+      label = "Instagram"
+    
+    [[params.footer.social]]
+      icon = ""
+      url= "https://www.github.com"
+      label = "GitHub"
+
+    [[params.footer.social]]
+      icon = ""
+      url= "https://www.linkedin.com"
+      label = "LinkedIn"
+
+    [[params.footer.quicklinks]]
+      text = ""
+      url= "/terminos-y-politica/"
+      alt = "AVISO LEGAL: Términos de Uso y Política de privacidad"
+   
