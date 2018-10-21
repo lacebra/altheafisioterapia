@@ -5,7 +5,7 @@
   </a>
 </p>
 
-<h1 align="center">Club Triatlón Aguaverde</h2>
+<h1 align="center">Althea Fisioterapia</h2>
 
 <p align="center">
   Web del CDE Triatlón Aguaverde (Madrid). Realiza con <a href="https://gridsome.org/">Gridsome</a> y <a href="https://vuejs.org">Vue.js</a>
